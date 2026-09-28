@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>775177b3-d011-432d-828f-bb2eb1672ce7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Playwright_API_UI_Project.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -522,7 +523,6 @@
     <Compile Include=".venv\Lib\site-packages\pip\__pip-runner__.py" />
     <Compile Include="api\user_api.py" />
     <Compile Include="tests\api\conftest.py" />
-    <Compile Include="Python_Playwright_API_UI_Project.py" />
     <Compile Include="tests\api\test_users_negative.py" />
     <Compile Include="tests\api\test_users_positive.py" />
   </ItemGroup>
@@ -1198,6 +1198,7 @@
     <Content Include=".venv\Scripts\python.exe" />
     <Content Include=".venv\Scripts\pythonw.exe" />
     <Content Include="pytest.ini" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
